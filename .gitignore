@@ -1,0 +1,60 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+*.backup
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.env
+*.egg-info/
+*.log
+
+# Visual Studio Code / JetBrains / IDEs
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Credentials and sensitive config
+*.pem
+*.key
+*.crt
+*.pfx
+secrets.yaml
+*.bak
+
+# Output folders
+/output/
+dist/
+build/
+
+# Linux/macOS generated files
+*.out
+*.retry
+*.pid
+*.log
+nohup.out
+
+# Zip or archive files
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
